@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+    body{
+        position: relative;
+           width: 100%;
+           height: calc(100vh - 22px);
+           background: url(../img/White\ Minimalist\ Dental\ Clinic\ Facebook\ Cover.png);
+           background-size: cover;
+    }
+   
+    
+    .login{
+        position: absolute;
+           width: 500px;
+             height: 500px;
+             left: 429px;
+               top: 100px;
+             align-items: center;
+             background: #0074A9;
+            box-shadow: 5px 4px 15px rgba(0, 0, 0, 0.51);
+              border-radius: 15px;
+    }   .logo{
+          position: absolute;
+            width: 215px;
+           height: 69px;
+           left: 200px;
+             top: 20px;
+              
+    }.logo img{
+      width:90px;
+    }
+    #nom{
+      position: absolute;
+width: 300px;
+height: 30px;
+left: 100px;
+top: 120px;
+background: transparent;
+border: 0;
+border-bottom: 3px solid white;
+    }
+    #psw{
+      position: absolute;
+      width: 300px;
+height: 30px;
+left: 100px;
+top: 200px;
+background: transparent;
+border: 0;
+border-bottom: 3px solid white;
+    }#btn{
+      box-sizing: border-box;
+
+position: absolute;
+width: 200px;
+height: 50px;
+left: 150px;
+top: 360px;
+color: black;
+font-size: 20px;
+background: #FEFFFD;
+
+border: 0;
+border-radius: 20px;
+    }
+    #lien1{
+      position: absolute;
+width: 259px;
+height: 30px;
+left: 100px;
+top: 270px;
+text-decoration: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+    }
+    #lien2{
+      position: absolute;
+width: 259px;
+height: 30px;
+left: 150px;
+top: 430px;
+text-decoration: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+    }
+    @media screen and   (max-width: 992px)  {
+      .login{
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        left: 100px;
+         
+        margin-right: 60px;
+        bottom: 30px;
+       
+      }
+        
+#nom , #psw{
+     
+     width: 400px;
+     height: 30px;
+     left: 50px;
+     
+             }
+     #btn{
+         
+     width: 100px;
+     height: 50px;
+     left: 200px;
+     
+             }
+             #lien1 ,  #lien2{
+              
+     width: 200px;
+     font-size: 15px;
+     left: 80px;
+     
+     
+     
+             }
+           
+     
+            .logo{
+             left:200px;
+            }
+    }
+    
+    @media screen and   (max-width: 500px)  {
+      body {
+    width: 100%;
+    
+
+
+}
+
+#nom , #psw{
+     
+width: 200px;
+height: 30px;
+left: 50px;
+
+    }
+#btn{
+
+width: 100px;
+height: 50px;
+left: 100px;
+
+    }
+    #lien1 ,  #lien2{
+     
+width: 200px;
+font-size: 12px;
+left: 60px;
+
+
+
+    }
+  
+
+   .logo{
+    left:100px;
+   }
+  
+      .login{
+        position: absolute;
+        width: 300px;
+        height: 500px;
+        left: 40px;
+        right: 5px;
+        margin-right: 60px;
+        bottom: 30px;
+       
+      }
+      
+    }
+ 

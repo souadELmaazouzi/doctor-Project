@@ -1,0 +1,165 @@
+.contact-cover{
+    background-image: url("../images/contact/bg1-contact.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: start center;
+    height: 50vh;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    text-align: center;
+    width: 100%;
+}
+header {
+    background: url("../img/portrait-of-doctor.jpg") fixed center;
+    background-size: cover;
+    height: 400px;
+}
+.contact-cover h1{ 
+    font-size: 2rem;
+    color: white;
+    align-items: flex-start;
+}
+
+/* about cover end  */
+#form{
+    display: block;
+}
+
+.contact-section{
+    width: 85%;
+    margin-left: 9vw ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-width: 700px;
+}
+.contact-section p{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    
+}
+
+input{
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.message-area{
+    grid-column: span 2;
+    height: 125px;
+    text-align: top;
+    justify-self: end;
+    align-items: top;
+    margin-bottom: 20px;
+}
+
+textarea{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    resize: none;
+}
+.btn-contact{
+    background-color:#0074a9;
+/* border : 1px solid  #FcF8F8; */
+border-radius: 3px;
+color :#FcF8F8;
+transition: 0.2s ease-in-out;
+cursor: pointer;
+border-style: none;
+padding: 1em 2em;
+}
+
+.btn-contact:hover{ 
+background-color: #00647bec;
+/* transform: scale(0.99); */
+}
+/*sechudule*/
+#contact .contact {
+	flex-direction: column;
+	max-width: 600px;
+	margin: 0 auto;
+	width: 80%;
+}#contact .contact-items {
+	/* max-width: 400px; */
+	width: 100%;
+}
+
+#contact .contact-item {
+	width: 80%;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0px 0px 10px 0 #0000002c;
+	transition: 0.3s ease box-shadow;
+}
+
+#contact .contact-item:hover {
+	box-shadow: 0px 0px 1px 0 #0000002c;
+}
+
+#contact .icon {
+	width: 40px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}#contact .icon {
+	width: 40px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.inputs-filed{
+    margin-top: 60px;
+    border: 0;
+}
+.main-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+}
+
+.contact-item table{
+   margin-top: 30px;
+        width: 100%;
+        border-collapse: collapse;
+ 
+}
+.contact-item th,td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.contact-item tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+@media (min-width: 768px) {
+    .inputs-filed{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    input{
+        margin: 0px;
+    }
+    .message-area{
+        grid-column: span 2;
+    }
+
+}
+

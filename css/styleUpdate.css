@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#dashboard {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#sidebar {
+    width: 20%;
+    background: #0074a9;
+    color: #fff;
+    /*margin-top: 50px;*/
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar ul li {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+  
+}
+
+#content {
+    background-color:#0074a943 ;
+   
+    width: 80%;
+    padding: 20px;
+    
+}
+
+table {
+    margin-top: 60px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#edit-rendez-vous-popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+   
+    visibility: visible;
+
+    transition: all 0.5s ease-out;
+}
+
+
+.popup-content {
+    width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.popup-content h2 {
+    margin-bottom: 15px;
+}
+
+.popup-content .input-group {
+    margin-bottom: 15px;
+}
+
+.popup-content .input-group label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.popup-content .input-group input {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 14px;
+}
+
+.patients .input-group input {
+    width: 50%;
+    padding: 8px 10px;
+    font-size: 14px;
+    margin-left: 80px;
+}
+ .Search{
+    background:#2980b9;
+    padding: 10px;
+    
+   
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.popup-content .btn-group {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.popup-content .btn-group button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn-add {
+    background: #356ddc;
+  margin-right: 50px;
+  align-items: center;
+
+ 
+}
+.popup-content .btn-group button.danger {
+    background: #dc3545;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.popup-content .btn-group button.success {
+    background: #28a745;
+    color: #fff;
+}
+
+ .logo {
+   align-items: center;
+   height: 10%;
+   justify-content: center;
+
+   
+}
+.doctor{
+    margin-left: 30%;
+    
+    margin-top: 10px;
+}
+
+@media  (max-width: 800px) {
+   
+    #sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    #content {
+        width: 100%;
+        padding: 20px;
+    }
+    #dashboard {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.btn-add {
+    background-color: #2980b9;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px;
+}
+#content h1{
+    margin: 10px;
+    color: #0074a9;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+.btnMenu {
+    background-color:#5aa6c9;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    color: #ffffff;
+    padding: 20px;
+    width: 100%;
+}
+
+.btn-edit {
+    background-color: #f39c12;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.btn-delete {
+    background-color: #e74c3c;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+button {
+    border: none;
+    margin: 3px;
+}
+
+.table-responsive {
+    overflow: overlay;
+}
